@@ -1,0 +1,38 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: #00286E;
+    color: white;
+    padding: 2px;
+    border: none;
+    margin: 2px;
+    height: 20px;
+    width: 40px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: lightgrey;
+}
+
+h1 {
+    color: #00286E;
+}
+
+input {
+    border: 1px solid lightgrey;
+    margin-right: 10px;
+    height: 16px;
+}
+
+h3 {
+    border: 1px dashed #00286E;
+    border-radius: 5px;
+    padding: 2% 5%;
+    width: 190px;
+}
